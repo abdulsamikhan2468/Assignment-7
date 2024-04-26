@@ -1,0 +1,161 @@
+####### Q1
+let studentsname=[]
+
+####### Q2
+let futureStudents = {
+  names: []
+};
+
+####### Q3
+let names =['Ali','Umer']
+
+###### Q4
+let numbers=[2,5,7]
+
+###### Q5
+let b=[true,false]
+
+###### Q6
+
+let mix=[1,'Ali',true]
+
+
+######## Q7
+
+let subjects=["1)SSC",'2)HSC','3)BCS','4)BS','5)BCOM','6)MS','7)M.Phil','8)PhD']
+              
+
+document.write(subjects)
+
+######## Q8
+
+let names=['Michael','John','Tony']
+
+let marks=[320,230,480]
+
+let percentage=[(320/500)*100,(230/500)*100,(480/500)*100]
+
+
+document.write(`Score of ${names[0]} is ${marks[0]}.Percentage:${percentage[0]}%`)
+
+document.write(`Score of ${names[1]} is ${marks[1]}.Percentage:${percentage[1]}%`)
+
+document.write(`Score of ${names[2]} is ${marks[2]}.Percentage:${percentage[2]}%`)
+
+######## Q9
+
+let colors=['Green','Blue','Black','Red']
+
+document.write(colors)
+
+// part a
+
+x=prompt('Enter color you want to add at the begining: ')
+
+colors.unshift(x)
+
+document.write(colors)
+
+// part b
+
+x=prompt('Enter color you want to add at the end: ')
+
+colors.push(x)
+
+document.write(colors)
+
+// part c
+
+colors.unshift('Golden','Skyblue')
+
+document.write(colors)
+
+// part d
+
+colors.shift()
+
+document.write(colors)
+
+// part e
+
+colors.pop()
+
+document.write(colors)
+
+// part f
+
+y=prompt('Enter color you want to add: ')
+
+z=prompt('Enter index number where you want to add: ')
+
+colors.splice(z,0,y)
+
+document.write(colors)
+
+// part f
+
+y=prompt('Enter index of color want to delete: ')
+
+z=prompt('Enter number of colors want to delete: ')
+
+colors.splice(y,z)
+
+document.write(colors)
+
+
+
+
+
+
+
+
+########## Q10
+
+let studentsscore=[320,230,480,120]
+
+document.write(`Score of Students: ${studentsscore}` )
+
+studentsscore.sort()
+
+document.write(`Ordered Score of Students: ${studentsscore}` )
+
+
+######## Q11
+
+let cities=['Karachi','Lahore','Islamabad','Quetta','Peshawar']
+
+document.write(`Cities List: ${cities}`)
+
+x=cities.splice(2,2)
+
+document.write(`Selected Cities List: ${x}`)
+
+
+######## Q12
+
+let x=["This","is","my","cat."]
+
+document.write(`Array: ${x}`)
+
+y=x.join(' ')
+
+document.write(`String: ${y}`)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
